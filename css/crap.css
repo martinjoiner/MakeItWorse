@@ -5,7 +5,7 @@
 }
 
 body{
-	background-image: url('http://localhost/book/images/Animated-gif-stars-twinkling-in-night-sky.gif');
+	background-image: url('http://makeitworse.local/images/Animated-gif-stars-twinkling-in-night-sky.gif');
 	background-color: #000;
 }
 
@@ -17,4 +17,12 @@ table{
 h1.shith1{
 	display: block;
 	color: red;
+}
+
+.inlineglobe{
+	display: inline-block;
+	background-image: url('http://makeitworse.local/images/globe.gif');
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
 }
