@@ -1,0 +1,27 @@
+body{
+	font-family:sans-serif;
+}
+
+.bookmarklet{
+	display: inline-block;
+	background-color: #99A;
+	border-radius: .4em;
+	box-shadow: inset 1px 1px 1px rgba(255,255,255,0.3), inset -1px -1px 1px rgba(0,0,0,0.3);
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+	color: #FFF;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.bookmarklet:hover{
+	color: #D33;
+	text-shadow: none;
+	font-family: cursive;
+}
+
+.bookmarklet:active{
+	box-shadow: inset -1px -1px 1px rgba(255,255,255,0.3), inset 1px 1px 1px rgba(0,0,0,0.3);
+}
