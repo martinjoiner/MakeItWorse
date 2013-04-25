@@ -14,7 +14,7 @@
 		var innerHTML = arrHeaders[i].innerHTML;
 		innerHTML = innerHTML.replace(/<[^<>]*>/g,''); // Strip out any internal tags
 		innerHTML = innerHTML.replace('o','<i class="inlineglobe"></i>');
-		console.log(innerHTML);
+		
 		arrHeaders[i].innerHTML = '<marquee>'+innerHTML+'</marquee>';
 		
 	}

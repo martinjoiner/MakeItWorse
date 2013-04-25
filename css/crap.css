@@ -4,7 +4,7 @@
 	font-family: comic-sans, cursive;
 }
 
-body{
+body, h1.shith1{
 	background-image: url('http://makeitworse.local/images/Animated-gif-stars-twinkling-in-night-sky.gif');
 	background-color: #000;
 }
@@ -17,6 +17,13 @@ table{
 h1.shith1{
 	display: block;
 	color: red;
+	padding: .5em 0;
+	text-indent: 0;
+	font-size: 2em;
+}
+
+h1.shith1 marquee{
+	padding: 0.5em 0;
 }
 
 .inlineglobe{
